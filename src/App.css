@@ -28,6 +28,9 @@
   color: #61dafb;
 }
 
+body{
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +38,252 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.loginSelector {
+  max-width: 400px;
+  margin: 40px auto;
+}
+.wrapper {
+  width: 100%;
+  height: 800px;
+}
+
+.container {
+  margin: 15px auto;
+  width: 700px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 8px;
+  padding: 0 80px;
+  height: fit-content !important;
+}
+
+.tabular.menu{
+  margin-bottom: 80px !important;
+}
+.Qtabs .menu {
+  justify-content: center;
+  font-size: 18px !important;
+}
+.Qtabs .menu .item{
+
+}
+.QWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column !important;
+  padding-bottom: 50px;
+}
+
+.questionCard {
+
+  flex-direction: row !important;
+  width: 450px !important;
+  margin: 0 auto !important;
+  margin-top: 35px !important;
+  padding: 10px 5px !important;
+  height: fit-content;
+}
+.QWrapper .ui.card.questionCard .extra {
+  border-top: unset !important;
+  position: relative !important;
+  white-space: nowrap !important;
+}
+
+.QWrapper .ui.card.questionCard .extra .button{
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+}
+
+.questionAuthorIMG {
+  max-width: 140px;
+  padding: 15px !important;
+  background: unset !important;
+  display: flex !important;
+}
+.questionAuthorIMG img {
+  width: 90px !important;
+  align-self:center;
+}
+.QuestionContent {
+  text-align: left;
+  padding-left: 40px !important;
+  border-left: 1px solid rgb(206, 206, 206) !important;
+  border-top: unset !important;
+}
+
+.QuestionContent .meta {
+  margin-bottom: 8px !important;
+  color: #4b4b4b !important;
+}
+
+.QuestionContent .description .radio {
+  display: block;
+  margin-bottom: 10px;
+}
+.QuestionContent .description .text {
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2; 
+        line-clamp: 2; 
+-webkit-box-orient: vertical;
+height: 50px;
+}
+
+.QuestionContent .description .button {
+  margin-top: 25px;
+  width: 140px;
+  transform: translateX(40px);
+}
+.QuestionContent .description .fields{
+  flex-direction: column !important;
+}
+.QAnswer .description .field .button{
+  transform: unset !important;
+  margin: 0 auto;
+    display: block;
+}
+.QuestionContent h1 {
+  font-size: 22px !important;
+}
+
+.result {
+  width: 100% !important;
+  position: relative;
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+.result .header {
+  margin-top: 12px !important;
+}
+
+.single.questionCard {
+  width: 600px !important;
+}
+
+.ribbon {
+  right: -80px;
+  position: absolute !important;
+  left: auto !important;
+  top: 0;
+  max-width: 100px;
+}
+
+.ui.progress {
+  margin:1em 0 1.5em !important;
+}
+
+.noborder .QuestionContent{
+  border-left: unset !important;
+}
+
+
+
+.newQ{
+  flex-direction: column !important;
+}
+.newQ .questionCard {
+  margin: 0 auto !important;
+  height: fit-content !important;
+
+}
+.submitQ .button{
+margin: 0 auto !important;
+transform: unset !important;
+display: block !important;
+}
+
+.QuestionHeader {
+  margin: 0 auto !important;
+  width: 602px !important;
+  padding: 20px 0 20px 5px !important;
+  background-color: #24252b !important;
+  border-top-left-radius: 0.28571429rem;
+  border-top-right-radius: 0.28571429rem;
+ 
+}
+
+.QuestionHeader .content, .QuestionHeader i{
+  margin: 0 auto !important;
+  display: block !important;
+}
+.optionField{
+  margin: 15px 0px !important;
+
+}
+
+
+.LeaderBoard h1,h2,h3,h4{
+  color: white !important;
+}
+.totalScore{
+  margin: 20px 0 !important;
+  
+}
+
+.LeaderIMG,.LeaderData,.LeaderPosition{
+  display: flex !important;
+}
+
+.LeaderIMG .segment,.LeaderData .segment,.LeaderPosition .segment{
+  align-self: center;
+}
+.LeaderPosition h1 {
+  font-size: 3.8rem !important;
+  padding-left: 35px !important;
+}
+.LeaderData .segment {
+  padding-left: 60px !important;
+}
+.LeaderData .segment h3{
+  font-size: 28px !important;
+}
+.LeaderBoard .Color0{
+  background: rgb(237,71,75);
+  background: linear-gradient(90deg, rgba(237,71,75,1) 0%, rgba(243,115,120,1) 100%);
+}
+.LeaderBoard .Color1{
+  background: rgb(71,103,246);
+  background: linear-gradient(90deg, rgba(71,103,246,1) 0%, rgba(167,182,246,1) 100%);
+}
+.LeaderBoard .Color2{
+  background: rgb(114,175,121);
+  background: linear-gradient(90deg, rgba(114,175,121,1) 0%, rgba(164,234,172,1) 100%);
+}
+
+
+
+.navMenu{
+ background-color: #24252b !important;
+margin-bottom: 80px !important;
+padding: 10px 40px;
+}
+
+.navMenu .item {
+  color: white !important;
+  font-size: 18px !important;
+}
+.navMenu .item:hover {
+  color: yellow !important;
+}
+.welcomeUser img{
+  width: 50px !important;
+  margin-right: 20px;
+}
+
+.welcomeUser {
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+.welcomeUser h3{
+  align-self: center !important;
+  margin-top: unset !important;
+}
+.welcomeUser  div {
+display: flex !important;
 }
